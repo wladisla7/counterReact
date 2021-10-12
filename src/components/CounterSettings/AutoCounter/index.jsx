@@ -7,7 +7,6 @@ class AutoClick extends React.Component {
         this.state = {
             interval: 1,
             timeoutCount: 0,
-
         }
     }
 
@@ -24,6 +23,7 @@ class AutoClick extends React.Component {
     stopAuto = () => {
         clearInterval(this.intervalID);
     }
+
 
     reload = () => {
         window.location.reload();

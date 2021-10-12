@@ -9,7 +9,6 @@ class Counter extends React.Component {
 
         this.state = {
             counterNumber: 0,
-
         }
     }
 
