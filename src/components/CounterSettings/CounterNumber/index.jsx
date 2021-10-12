@@ -21,7 +21,6 @@ class Counter extends React.Component {
     }
 
 
-
     decreaseMode = () => {
         this.setState((prevState) => ({
             counterNumber: prevState.counterNumber - this.props.stepCounter,
@@ -41,10 +40,8 @@ class Counter extends React.Component {
         return (
             <div>
                 <div className="Mode">CounterMode</div>
-
                 <button className="icremode" onClick={() => this.props.toogle(true)}>increase</button>
                 <button className="decrmode" onClick={() => this.props.toogle(false)}>decrease</button>
-
                 <div>
                     <div className="displayCounter">
                         Count {this.state.counterNumber}

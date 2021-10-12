@@ -10,7 +10,6 @@ class CounterSettings extends React.Component {
         this.state = {
             step: 3,
             mode: true,
-
         }
     }
 
