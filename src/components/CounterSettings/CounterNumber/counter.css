@@ -1,0 +1,39 @@
+ .counterStyle {
+   display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .displayCounter {
+     color:black
+ }
+
+.buttonIncrease {
+    background:skyblue;
+    color:black;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:10px 10px;
+    min-width: 100px;
+}
+
+.buttonClear {
+    background:skyblue;
+    color:black;
+    text-decoration:none;
+    display:block;
+    max-width:80px;
+    text-align:center;
+    padding:10px 10px;
+    min-width: 100px;
+}
+    
+
+.App {
+    margin:10% 35%;
+    border: 2px solid black;
+}
+
+ 
